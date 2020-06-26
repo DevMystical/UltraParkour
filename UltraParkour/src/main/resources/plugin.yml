@@ -1,0 +1,15 @@
+name: UltraParkour
+version: ${project.version}
+main: me.mysticaldestroyr.ultraparkour.UltraParkour
+authors: [MysticalDestroyr]
+description: A fun plugin with support for adding multiple parkour courses and giving them starts, ends, and checkpoints
+
+commands:
+  parkour:
+    description: Used to create, edit, delete, and reset courses
+  checkpoint:
+    description: Return to your last checkpoint
+
+permissions:
+  ultraparkour.admin:
+    default: op

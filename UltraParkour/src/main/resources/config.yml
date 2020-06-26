@@ -1,0 +1,23 @@
+# UltraParkour by MysticalDestroyr
+# Please leave a rating and a comment with any suggestions or concerns you may have and I will attempt to address
+# them in a timely manner
+
+# I will probably be adding things like timers and leaderboards in future updates
+
+# Plugin prefix that shows up before all messages. Set prefix-enabled to false to disable this.
+prefix-enabled: true
+prefix: '&f[&aUltra&eParkour&f]'
+
+# If enabled, this is the message that will be broadcast to everyone when someone completes the course. Use %player% for
+# player name and %course% for the course name. If it is disabled, the message will instead be sent to just the player.
+complete-message: true
+course-complete: '&e%player% &fhas completed the parkour named &e%course%&f!'
+
+# Sets the message a player will see when they reach a checkpoint. Use %number% for the checkpoint number
+checkpoint-reached: '&fYou have reached checkpoint &e%number%'
+
+# Sets the message a player will see when they return to a checkpoint. Use %number% for the checkpoint number
+return-to-checkpoint: '&fYou have been returned to checkpoint &e%number%&f!'
+
+# Sets the message a player will see when they start a course. Use %course-name% for the name of the course (optional)
+course-started: '&fYou have begun the course named &e%course-name%&f!'
